@@ -1,0 +1,6 @@
+.cards__link {
+  justify-self: start;
+  align-self: self-end;
+  max-width: 456px;
+  height: 46px;
+}

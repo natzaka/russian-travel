@@ -1,0 +1,19 @@
+.cards__item-paragraph {
+    color: #FFFFFF;
+    /*font-size: 18px;
+    font-weight: 400;*/
+    font-family: 'Inter';
+    font-size: 18px;
+    line-height: 29.34px;
+    margin: 0;
+    max-width: 484px;
+}
+.cards__item-paragraph:nth-child(2) {
+    margin-top: 26px;
+}
+@media screen and (max-width: 768px) {
+.cards__item-paragraph {
+    font-size: 16px;
+    line-height: 26.08px;
+}
+}

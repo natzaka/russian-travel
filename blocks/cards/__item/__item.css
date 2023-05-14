@@ -1,0 +1,23 @@
+.cards__item {
+  /*height: 660px;*/
+  max-width: 984px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: auto;
+  grid-row-gap: 48px;
+  grid-column-gap: 40px;
+  margin-bottom: 80px;
+}
+
+@media screen and (max-width: 1100px) {
+  .cards__item {
+      grid-column-gap: 32px; 
+  }
+}
+@media screen and (max-width: 600px) {
+  .cards__item {
+      grid-template-columns: repeat(1, 1fr);
+      grid-template-rows: auto;
+      grid-row-gap: 50px;
+  }   
+  }
