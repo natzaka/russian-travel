@@ -2,5 +2,9 @@
   justify-self: start;
   align-self: self-end;
   max-width: 456px;
-  height: 46px;
+}
+@media  screen and (max-width: 320px) {
+  .cards__link {
+  margin: 0 16px;
+}
 }

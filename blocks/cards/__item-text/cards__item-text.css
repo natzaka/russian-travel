@@ -8,3 +8,8 @@
     max-width: 456px;
   }
 }
+@media  screen and (max-width: 320px) {
+  .cards__item-text {
+  margin: 0 16px;
+}
+}

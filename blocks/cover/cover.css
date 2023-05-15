@@ -2,11 +2,13 @@
   max-width: 100%;
   margin: 0 48px;
   position: relative;
-  background-image: url("/images/cover-trains.jpg");
-  background-size: contain;
+  background-image: url("../../images/cover-trains.jpg");
+  background-size: cover;
   background-repeat: no-repeat;
+  background-position: center;
+
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1230px) {
   .cover {
     margin: 0;
   }
