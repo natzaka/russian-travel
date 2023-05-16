@@ -12,15 +12,17 @@
     margin: 0px 48px 12px 48px;
   }
 }
+
 @media screen and (max-width: 768px) {
   .cards {
     padding-top: 88px;
     margin: 0 24px 10px 24px;
   }
 }
-@media  screen and (max-width: 320px) {
+
+@media screen and (max-width: 320px) {
   .cards {
     padding-top: 64px;
-    margin: 0;
+    margin: 0 0 16px 0;
   }
 }

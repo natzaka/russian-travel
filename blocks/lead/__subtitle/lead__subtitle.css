@@ -9,9 +9,18 @@
   margin: 0 auto;
   padding-top: 32px;
 }
+
 @media screen and (max-width: 700px) {
   .lead__subtitle {
     font-size: calc((100vw - 320px) / (700 - 320) * (30 - 16) + 16px);
     line-height: 20px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .lead__subtitle {
+    padding-top: 16px;
+    padding-left: 16px;
+    padding-right: 16px;
   }
 }

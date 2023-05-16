@@ -7,6 +7,19 @@
   margin: 0;
   letter-spacing: 1.5px;
   text-transform: uppercase;
-  left: 14px;
   color: #ffffff;
+}
+
+@media screen and (max-width: 768px) {
+  .lead__image-caption {
+    padding-left: 24px;
+  }
+
+}
+
+@media screen and (max-width: 320px) {
+  .lead__image-caption {
+    padding-left: 16px;
+  }
+
 }
